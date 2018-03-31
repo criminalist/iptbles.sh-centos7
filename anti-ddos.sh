@@ -441,5 +441,5 @@ $IPTABLES -A FORWARD -j REJECTLOG
 
 # Exit gracefully.
 #------------------------------------------------------------------------------
-
+/sbin/iptables-save  > /etc/sysconfig/iptables
 exit 0
